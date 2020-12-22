@@ -28,6 +28,7 @@ import tracemalloc
 # Grad_CAM全般の処理を行うクラス
 class Grad_CAM():
 
+
     # コンストラクタ
     def __init__(self, GazeCapture_path, model_path):
         self.GazeCapture_path = GazeCapture_path
